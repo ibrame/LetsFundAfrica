@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <title>#LetsFundAfrica</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <style>
+            html, body{
+                margin : 0; padding : 0;
+                font-family : "Open Sans";
+                height : 100%;
+            }
+            *,
+            *:before,
+            *:after{
+                -webkit-box-sizing : border-box;
+                -moz-box-sizing : border-box;
+                box-sizing : border-box;
+            }
+            .header{
+                width : 100%;
+                background-color : #fff;
+                height : 60px;
+                border-bottom : 4px solid  #e6e6e6;
+                padding : 10px;
+                position : relative;
+            }
+            .header .title{
+                position : absolute;
+                color : #000;
+                font-weight : 700;
+                font-size : 24px;
+            }
+            .header .menu{
+               padding : 0;
+               display : table;
+               margin : 0 auto;
+               margin-top : 2px;
+            }
+            .header .menu li{
+                color : #000;
+                font-weight : 400;
+                font-size : 18px;
+                float : left;
+                padding : 5px 10px;
+                border-right : 2px solid #e6e6e6;
+                list-style-type : none;
+            }
+            .header .menu li:last-child{
+                border-right : none;
+            }
+             .header .menu li a{
+                color : #000;
+                text-decoration : none;
+            }
+             .header .menu li a:hover{
+                color : #00d4aa;
+            }
+            
+            .header .mob_menu{
+                position : absolute;
+                right : 0;
+                width : 36px;
+                height : 36px;
+                color : #000;
+                cursor : pointer;
+            }
+            .header .mob_menu .menu2{
+                position : relative;
+            }
+            .header .mob_menu .menu2 ul{
+                position : absolute;
+                right : 0;
+                margin : 0; padding : 0;
+                background : #fff;
+                z-index : 3;
+                border-top : 1px solid #e6e6e6;
+                display : none;
+            }
+            .header .mob_menu:hover .menu2 ul{
+                display : table;
+            }
+            .header .mob_menu .menu2 ul li{
+                padding : 10px;
+                font-size : 18px;
+                border-bottom : 1px solid #e6e6e6;
+            }
+            .header .mob_menu .menu2 ul li a{
+                color : #000;
+            }
+            .show_mobile{
+                display : none;
+            }
+            
+            .page{
+                position : absolute;
+                top : 60px;
+                bottom : 0px;
+                color : #fff;
+                background-color : #000;
+                width : 100%;
+                padding-top : 50px;
+            }
+            .page .title{
+                margin : 0 auto;
+                font-size : 36px;
+                text-align : center;
+            }
+            .page .title a{
+                color : #fff;
+                font-size : 18px;
+            }
+            .page .theButton{
+                display : table;
+                width : auto;
+                margin : 0 auto;
+                background-color : #00d4aa;
+                border-bottom : 4px solid #008066;
+                margin-top : 70px;
+            }
+            .page .theButton a{
+                display : block;
+                width : 100%; height : 100%;
+                padding : 30px;
+                color : #fff;
+                font-size : 36px;
+                text-align : center;
+                text-decoration : none;
+            }
+            
+            @media only screen and (max-width : 1024px){
+                .header .menu{
+                    display : none !important;
+                }
+                .show_mobile{
+                    display : block;
+                }
+            }
+            
+            @media only screen and (max-width : 640px){
+                .page .title{
+                    font-size : 24px;
+                    padding : 10px;
+                }
+                .page .theButton{
+                    margin-top : 30px;
+                }
+                .page .theButton a{
+                    font-size : 24px;
+                }
+            }
+            
+            @media only screen and (max-width : 330px){
+                .page .title{
+                    font-size : 18px;
+                }
+                .page .theButton{
+                    margin-top : 30px;
+                }
+                .page .theButton a{
+                    font-size : 18px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class='header'>
+            <div class='title'>#LetsFundAfrica</div>
+            <div class='show_mobile mob_menu'>
+                <i class="menu_toggle fa fa-bars fa-2x"></i>
+                <div class='menu2'>    
+                    <ul>
+                        <li><a href='http://ibrame.github.io/LetsFundAfrica/letsfundnigeria.html'>#LetsFundNigeria</a></li>
+                        <li>#LetsFundKenya</li>
+                        <li>#LetsFundGhana</li>
+                        <li>#LetsFundSA</li>
+                    </ul>
+                </div>
+            </div>
+            <ul class='menu'>
+                <li><a href='http://ibrame.github.io/LetsFundAfrica/letsfundnigeria.html'>#LetsFundNigeria</a></li>
+                <li>#LetsFundKenya</li>
+                <li>#LetsFundGhana</li>
+                <li>#LetsFundSA</li>
+            </ul>
+        </div>
+        <div class='page'>
+            <div class='title'><br/>Lets stop talking about how little we have,<br/>lets focus on adding the little we have together.<br/><a href='https://docs.google.com/document/d/1w4uFHGzz92yPtxXjgwjiLMvOVtXqataLXthLeg4N10o/edit?usp=sharing'>Learn More</a></div>
+            <div href='' class='theButton'><a href="https://twitter.com/intent/tweet?url=http://ibrame.github.io/LetsFundAfrica/letsfundafrica.html&text=With+N1k+each%2C+1m+people+in+each+African+country+can+fund+%23startups+%23health+etc+%23LetsFundAfrica&via=LetsFundAfrica">I Agree! #LetsFundAfrica</a></div>
+        </div>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <script>
+            $(document).ready(function(){
+                $(document).on('click', '.menu_toggle', function(){
+                    $('.menu2 ul').toggle();
+                });
+            });
+        </script>
+    </body>
+</HTML>
