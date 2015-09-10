@@ -1,2 +1,2 @@
 # LetsFundAfrica
-Mock-ups for lets #LetsFundAfrica
+Mock-ups for #LetsFundAfrica
